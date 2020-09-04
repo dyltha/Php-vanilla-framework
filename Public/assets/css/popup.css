@@ -1,0 +1,59 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&display=swap');
+
+.popup {
+    width : 100vw;
+    height : 75px;
+
+    display : flex;
+    flex-direction : flex-start;
+    align-items : center;
+
+    position : fixed;
+    bottom : 0;
+
+}
+
+.popup.error {
+    background-color : rgba(196, 34, 34, 0.8);
+
+}
+
+.popup.success {
+    background-color : rgba(106, 176, 76,0.8);
+}
+
+.iconContainer {
+    width : 75px;
+    height : 100%;
+
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items : center;
+
+    color : #fff;
+
+    background : rgba(0,0,0,0.1);
+
+    font-size : 30px;
+}
+
+.message {
+    padding : 10px;
+    color : #fff;
+    text-align : justify;
+    font-family: 'Jost', sans-serif;
+    font-size : 14px;
+}
+
+
+@media screen and (max-width : 426px) {
+    .popup {
+        bottom : 64px;
+    }
+
+}

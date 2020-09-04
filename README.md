@@ -1,2 +1,1 @@
-# Php-vanilla-framework
-Vanilla PHP framework using MVC patern
+# Php vanilla framework
